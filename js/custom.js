@@ -16,7 +16,7 @@ $.get("https://appquiz-api.herokuapp.com/api/quiz/start", function (data) {
 
         $("div.background").each(function () {
             var i = Math.floor(Math.random() * 14);
-            console.log(i);
+            // console.log(i);
             $(this).css("background",  colors[i])
         })
     }
@@ -33,6 +33,7 @@ $.get("https://appquiz-api.herokuapp.com/api/quiz/start", function (data) {
     $(".answer").click(function () {
         if($(".selected").attr("value") == data.questions[q].correct){
             score++;
+            console.log(score);
         }
 
         alt = 0;
