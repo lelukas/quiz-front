@@ -200,3 +200,55 @@ div.background{
         font-size: 4em;
     }
 }
+
+.ranking{
+    padding-top: 5% !important;
+}
+
+.start-game{
+    width: 23em;
+    height: 5em;
+    line-height: 5em;
+    /*border-radius: 10px;*/
+    box-shadow: 0 10px 0px rgba(218, 223, 225, 0.5);
+    /*border-bottom: 10px solid #D3B59E;*/
+    background-color: #E4F1FE;
+    color: #34495E;
+    margin: 1% 0 2% 2%;
+    /*box-shadow: 0 3px 6px rgba(0,0,0,.4), 0 3px 6px rgba(0,0,0,0.4);*/
+    /*transition: .5s;*/
+    margin-bottom: 2em;
+    font-size: 5em;
+}
+
+.ranking-game{
+    width: 23em;
+    height: 5em;
+    line-height: 5em;
+    /*border-radius: 10px;*/
+    box-shadow: 0 10px 0px rgba(37, 116, 169, 0.5);
+    /*border-bottom: 10px solid #D3B59E;*/
+    background-color: #1E8BC3;
+    color: #EEEEEE;
+    margin: 1% 0 2% 2%;
+    /*box-shadow: 0 3px 6px rgba(0,0,0,.4), 0 3px 6px rgba(0,0,0,0.4);*/
+    /*transition: .5s;*/
+    margin-bottom: 2em;
+    font-size: 5em;
+}
+
+.category-game{
+    width: 10em;
+    height: 5em;
+    line-height: 5em;
+    /*border-radius: 10px;*/
+    box-shadow: 0 10px 0px rgba(191, 191, 191, 0.5);
+    /*border-bottom: 10px solid #D3B59E;*/
+    background-color: #ECF0F1;
+    color: #2C3E50;
+    margin: 1% 0 2% 2%;
+    /*box-shadow: 0 3px 6px rgba(0,0,0,.4), 0 3px 6px rgba(0,0,0,0.4);*/
+    /*transition: .5s;*/
+    margin-bottom: 2em;
+    font-size: 5em;
+}

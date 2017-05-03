@@ -1,8 +1,8 @@
 $.get("https://appquiz-api.herokuapp.com/category", function (data) {
-    console.log(name)
+    console.log()
 
     data.forEach(function () {
-        console.log(data)
+        console.log(name)
     });
     // $(".ui.grid:nth-child(1)").append()
 });
