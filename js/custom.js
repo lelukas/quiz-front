@@ -1,10 +1,19 @@
+$.get("https://appquiz-api.herokuapp.com/category", function (data) {
+    console.log(name)
+
+    data.forEach(function () {
+        console.log(data)
+    });
+    // $(".ui.grid:nth-child(1)").append()
+});
+
+
 $.get("https://appquiz-api.herokuapp.com/api/quiz/start", function (data) {
     console.log(data);
 
     var q = 0;
     var alt = 0;
     var score = 0;
-    var colors = ["#FB6900", "#F63700", "#004853", "#007E80", "#059999", "#F07848", "#D83018", "#98A8A7", "#F05D6F", "#AB1A2B", "#514642", "#FFCA22", "#A6163A", "#75615E"];
 
     // console.log(data);
 
