@@ -1,5 +1,5 @@
 body{
-    background-color: #DBCDA7 !important;
+    background-color: #336E7B !important;
     color: #FFFFFF !important;
 }
 
@@ -11,8 +11,11 @@ body{
 }
 
 .ui.answer.row.button{
-    background-color: #A7AE9C !important;
-    margin: auto;
+    background-color: #26C281 !important;
+    /*margin: auto;*/
+    width: 105%;
+    height: 10em;
+    box-shadow: 0 10px 0px rgba(77, 175, 124, 0.5) !important;
 }
 
 .answer>p{
@@ -25,14 +28,14 @@ body{
 .game-button{
 
     width: 23em;
-    /*height: 150px;*/
+    /*height: 3em;*/
     /*border-radius: 10px;*/
-    /*box-shadow: 0 10px 0px rgba(94, 138, 102, 0.5);*/
-    border-bottom: 10px solid #D3B59E;
-    background-color: #AAB3AB;
-    color: #fff;
+    box-shadow: 0 10px 0px rgba(218, 223, 225, 0.5);
+    /*border-bottom: 10px solid #D3B59E;*/
+    background-color: #E4F1FE;
+    color: #34495E;
     margin: 1% 0 2% 2%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    /*box-shadow: 0 3px 6px rgba(0,0,0,.4), 0 3px 6px rgba(0,0,0,0.4);*/
     /*transition: .5s;*/
     margin-bottom: 2em;
     font-size: 2em;
@@ -56,7 +59,9 @@ p{
 
 
 .selected{
-    background: #675A46;
+    background: #26C281;
+    box-shadow: 0 10px 0px rgba(77, 175, 124, 0.5) !important;
+    color: #EEEEEE;
 }
 
 @keyframes deselected{

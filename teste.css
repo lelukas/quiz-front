@@ -13,7 +13,7 @@ body{
 	background-color: #16a085;	
 	color: #fff;
 	margin: 1% 0 2% 2%;
-	transition: .5s;
+	transition: .1s;
 }
 
 .game-button:hover{
