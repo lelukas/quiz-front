@@ -1,14 +1,46 @@
+body{
+    background-color: #30514C !important;
+    color: #FFFFFF !important;
+}
+
 .question{
     margin-top: 2em;
     margin-bottom: 1em;
-    font-size: 1.4em;
-    margin-bottom: 1em;
+    font-size: 2em;
+    /*margin-bottom: em;*/
+}
+
+.ui.answer.row.button{
+    background-color: #8E9953 !important;
+    margin: auto;
+}
+
+.answer>p{
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 1.2em;
 }
 
 
-.item{
-    position: relative !important;
+.game-button{
+
+    width: 23em;
+    /*height: 150px;*/
+    border-radius: 10px;
+    box-shadow: 0 10px 0px rgba(94, 138, 102, 0.5);
+    background-color: #33271F;
+    color: #fff;
+    margin: 1% 0 2% 2%;
+    transition: .5s;
+    margin-bottom: 2em;
+    font-size: 2em;
 }
+
+p{
+    padding: 0.4em; !important;
+}
+
+
 
 @keyframes selected {
     from{
@@ -22,7 +54,7 @@
 
 
 .selected{
-    animation: selected 0.4s forwards;
+    background: #675A46;
 }
 
 @keyframes deselected{
@@ -61,8 +93,6 @@ div.background{
 .content.alternative{
     font-size: 1.3em !important;
 }
-
-
 
 
 

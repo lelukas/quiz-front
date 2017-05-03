@@ -3,12 +3,12 @@
 <head>
 	<title>Quiz</title>
 
-	<meta name="description" content="">
-	<meta name=viewport content="width=device-width, initial-scale=1">
-	<meta name="mobile-web-app-capable" content="yes">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
 
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
 
@@ -16,101 +16,54 @@
 
 	<div class="question row">Pergunta</div>
 
-	<!--<div class="alternative row" value="A"></div>-->
-	<!--<div class="alternative row" value="B"></div>-->
-	<!--<div class="alternative row" value="C"></div>-->
-	<!--<div class="alternative row" value="D"></div>-->
-	<!--<div class="alternative row" value="E"></div>-->
 
-	<div class="ui divided items">
 
-		<div class="item">
-			<div class="ui tiny image">
-				<div class="background">
-					<p>A</p>
-				</div>
+	<div class="ui one columns full width grid alternatives">
+
+		<div class="column">
+
+			<div value="A" class="row game-button">
+				<p class="alternative">alternativa aaa</p>
 			</div>
-			<div class="middle aligned alternative content" value="A">
-				<!--<p class="alternative">-->
-					Content A
-				<!--</p>-->
+
+			<div value="B" class="row game-button">
+				<p class="alternative">alternativa bbb</p>
+			</div>
+
+			<div value="C" class="row game-button">
+				<p class="alternative">alternativa ccc</p>
+			</div>
+
+			<div value="D" class="row game-button">
+				<p class="alternative">alternativa ddd</p>
+			</div>
+
+			<div value="E" class="row game-button">
+				<p class="alternative">alternativa eee</p>
 			</div>
 		</div>
 
-		<div class="item">
-			<div class="ui tiny image">
-				<div class="background">
-					<p>B</p>
-				</div>
-			</div>
-			<div class="middle aligned alternative content" value="B">
-				<!--<p class="alternative">-->
-					Content A
-				<!--</p>-->
-			</div>
-		</div>
+		<button disabled class="ui answer row button">
+			<p>Responder</p>
+		</button>
 
-		<div class="item">
-			<div class="ui tiny image">
-				<div class="background">
-					<p>C</p>
-				</div>
-			</div>
-			<div class="middle aligned alternative content" value="C">
-				<!--<p class="alternative">-->
-					Content A
-				<!--</p>-->
-			</div>
-		</div>
-
-		<div class="item">
-			<div class="ui tiny image">
-				<div class="background">
-					<p>D</p>
-				</div>
-			</div>
-			<div class="middle aligned alternative content" value="D">
-				<!--<p class="alternative">-->
-					Content A
-				<!--</p>-->
-			</div>
-		</div>
-
-		<div class="item">
-			<div class="ui tiny image">
-				<div class="background">
-					<p>E</p>
-				</div>
-			</div>
-			<div class="middle aligned alternative content" value="E">
-				<!--<p class="alternative">-->
-					Content A
-				<!--</p>-->
-			</div>
-		</div>
 	</div>
-
-	<button class="ui answer row button">
-		Responder
-	</button>
-
 
 </div>
 
 
 <div class="ui center aligned relaxed hide grid">
 	<div class="result row">
-		<div class="column">
-			Fim do questionário
-		</div>
-		<div class="score column">
+		Fim do questionário
+	</div>
+	<div class="score row">
 
-		</div>
 	</div>
 </div>
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-<script rel="stylesheet" type="text/css" href="semantic/dist/semantic.js"></script>
+<script type="text/javascript" src="semantic/dist/semantic.js"></script>
+<script type="text/javascript" src="js/hammer-time.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>
