@@ -3,16 +3,19 @@ body{
     color: #FFFFFF !important;
 }
 
+.ui.grid:nth-child(1){
+    position: relative;
+    top:10%;
+}
+
 .question{
     margin-top: 2em;
     margin-bottom: 1em;
     font-size: 2em;
-    /*margin-bottom: em;*/
 }
 
 .ui.answer.row.button{
     background-color: #26C281 !important;
-    /*margin: auto;*/
     width: 105%;
     height: 10em;
     box-shadow: 0 10px 0px rgba(77, 175, 124, 0.5) !important;
@@ -24,58 +27,14 @@ body{
     font-size: 1.2em;
 }
 
-
-.game-button{
-
-    width: 23em;
-    /*height: 3em;*/
-    /*border-radius: 10px;*/
-    box-shadow: 0 10px 0px rgba(218, 223, 225, 0.5);
-    /*border-bottom: 10px solid #D3B59E;*/
-    background-color: #E4F1FE;
-    color: #34495E;
-    margin: 1% 0 2% 2%;
-    /*box-shadow: 0 3px 6px rgba(0,0,0,.4), 0 3px 6px rgba(0,0,0,0.4);*/
-    /*transition: .5s;*/
-    margin-bottom: 2em;
-    font-size: 2em;
-}
-
 p{
     padding: 0.4em; !important;
 }
 
-
-
-@keyframes selected {
-    from{
-        left: 0px;
-    }
-
-    to{
-        left: 30px;
-    }
-}
-
-
 .selected{
-    background: #26C281;
+    background: #26C281 !important;
     box-shadow: 0 10px 0px rgba(77, 175, 124, 0.5) !important;
-    color: #EEEEEE;
-}
-
-@keyframes deselected{
-    from{
-        left: 30px;
-    }
-
-    to{
-        left: 0px;
-    }
-}
-
-.deselected{
-    animation: deselected 0.4s forwards;
+    color: #EEEEEE !important;
 }
 
 .hide{
@@ -85,7 +44,6 @@ p{
 div.background{
     height: 50px;
     width: 50px;
-    /*background: black;*/
     display: table;
     text-align: center;
 }
@@ -101,154 +59,37 @@ div.background{
     font-size: 1.3em !important;
 }
 
-
-
-
-
-
-
-
-/* Mobile */
-@media only screen and (max-width: 767px) {
-    [class*="mobile hidden"],
-    [class*="tablet only"]:not(.mobile),
-    [class*="computer only"]:not(.mobile),
-    [class*="large screen only"]:not(.mobile),
-    [class*="widescreen only"]:not(.mobile),
-    [class*="or lower hidden"] {
-        display: none !important;
-    }
-
-
-}
-
-
-/*Mobile landscape*/
-@media only screen and (max-height: 420px){
-
-
-}
-
-
-/* Tablet / iPad Portrait */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    [class*="mobile only"]:not(.tablet),
-    [class*="tablet hidden"],
-    [class*="computer only"]:not(.tablet),
-    [class*="large screen only"]:not(.tablet),
-    [class*="widescreen only"]:not(.tablet),
-    [class*="or lower hidden"]:not(.mobile) {
-        display: none !important;
-    }
-
-
-
-}
-
-/* Computer / Desktop / iPad Landscape */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    [class*="mobile only"]:not(.computer),
-    [class*="tablet only"]:not(.computer),
-    [class*="computer hidden"],
-    [class*="large screen only"]:not(.computer),
-    [class*="widescreen only"]:not(.computer),
-    [class*="or lower hidden"]:not(.tablet):not(.mobile) {
-        display: none !important;
-    }
-
-
-}
-
-/* Large Monitor */
-@media only screen and (min-width: 1200px) and (max-width: 1919px) {
-    [class*="mobile only"]:not([class*="large screen"]),
-    [class*="tablet only"]:not([class*="large screen"]),
-    [class*="computer only"]:not([class*="large screen"]),
-    [class*="large screen hidden"],
-    [class*="widescreen only"]:not([class*="large screen"]),
-    [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
-        display: none !important;
-    }
-
-}
-
-/* Widescreen Monitor */
-@media only screen and (min-width: 1920px) {
-    [class*="mobile only"]:not([class*="widescreen"]),
-    [class*="tablet only"]:not([class*="widescreen"]),
-    [class*="computer only"]:not([class*="widescreen"]),
-    [class*="large screen only"]:not([class*="widescreen"]),
-    [class*="widescreen hidden"],
-    [class*="widescreen or lower hidden"] {
-        display: none !important;
-    }
-
-    .content.alternative{
-        font-size: 3em !important;
-    }
-
-    .background>p{
-        font-size: 3em;
-    }
-
-    div.background{
-        width: 80px;
-        height: 80px;
-    }
-
-    .question{
-        font-size: 4em;
-    }
-}
-
 .ranking{
-    padding-top: 5% !important;
+    /*padding-top: 5% !important;*/
 }
 
-.start-game{
+.game.button{
     width: 23em;
-    height: 5em;
-    line-height: 5em;
-    /*border-radius: 10px;*/
-    box-shadow: 0 10px 0px rgba(218, 223, 225, 0.5);
-    /*border-bottom: 10px solid #D3B59E;*/
     background-color: #E4F1FE;
     color: #34495E;
     margin: 1% 0 2% 2%;
-    /*box-shadow: 0 3px 6px rgba(0,0,0,.4), 0 3px 6px rgba(0,0,0,0.4);*/
-    /*transition: .5s;*/
     margin-bottom: 2em;
-    font-size: 5em;
+    font-size: 2em;
 }
 
-.ranking-game{
-    width: 23em;
-    height: 5em;
+.game.start.button{
     line-height: 5em;
-    /*border-radius: 10px;*/
+    box-shadow: 0 10px 0px rgba(218, 223, 225, 0.5);
+    background-color: #E4F1FE;
+    color: #34495E;
+    margin-bottom: 2em;
+}
+
+.game.ranking.button{
+    line-height: 5em;
     box-shadow: 0 10px 0px rgba(37, 116, 169, 0.5);
-    /*border-bottom: 10px solid #D3B59E;*/
     background-color: #1E8BC3;
     color: #EEEEEE;
-    margin: 1% 0 2% 2%;
-    /*box-shadow: 0 3px 6px rgba(0,0,0,.4), 0 3px 6px rgba(0,0,0,0.4);*/
-    /*transition: .5s;*/
-    margin-bottom: 2em;
-    font-size: 5em;
 }
 
-.category-game{
-    width: 10em;
-    height: 5em;
-    line-height: 5em;
-    /*border-radius: 10px;*/
+.game.category.button{
     box-shadow: 0 10px 0px rgba(191, 191, 191, 0.5);
-    /*border-bottom: 10px solid #D3B59E;*/
     background-color: #ECF0F1;
     color: #2C3E50;
-    margin: 1% 0 2% 2%;
-    /*box-shadow: 0 3px 6px rgba(0,0,0,.4), 0 3px 6px rgba(0,0,0,0.4);*/
-    /*transition: .5s;*/
     margin-bottom: 2em;
-    font-size: 5em;
 }

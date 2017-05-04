@@ -1,78 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Quiz</title>
+    <title>Quiz</title>
 
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
 
-	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
 
 
-<!--<div class="ui center aligned relaxed grid">-->
+<div class="ui center aligned relaxed three columns category grid">
 
-<!--</div>-->
-
-<div class="ui center aligned relaxed grid">
-
-	<div class="question row">Pergunta</div>
-
-
-
-	<div class="ui one columns full width grid alternatives">
-
-		<div class="column">
-
-			<div value="A" class="row game-button">
-				<p class="alternative">alternativa aaa</p>
-			</div>
-
-			<div value="B" class="row game-button">
-				<p class="alternative">alternativa bbb</p>
-			</div>
-
-			<div value="C" class="row game-button">
-				<p class="alternative">alternativa ccc</p>
-			</div>
-
-			<div value="D" class="row game-button">
-				<p class="alternative">alternativa ddd</p>
-			</div>
-
-			<div value="E" class="row game-button">
-				<p class="alternative">alternativa eee</p>
-			</div>
-
-			<div class="row">
-				<button disabled class="ui answer row button">
-				<p>Responder</p>
-				</button>
-			</div>
-
-		</div>
-
-
-	</div>
 
 </div>
 
 
 <div class="ui center aligned relaxed hide grid">
-	<div class="result row">
-		Fim do questionário
-	</div>
-	<div class="score row">
 
-	</div>
+    <div class="question row">Pergunta</div>
+
+    <div class="ui full width center aligned alternatives grid">
+
+        <div class="column">
+
+            <div value="A" class="game button row">
+                <p class="alternative">alternativa aaa</p>
+            </div>
+
+            <div value="B" class="game button row">
+                <p class="alternative">alternativa bbb</p>
+            </div>
+
+            <div value="C" class="game button row">
+                <p class="alternative">alternativa ccc</p>
+            </div>
+
+            <div value="D" class="game button row">
+                <p class="alternative">alternativa ddd</p>
+            </div>
+
+            <div value="E" class=" game button row">
+                <p class="alternative">alternativa eee</p>
+            </div>
+
+            <div class="row">
+                <button disabled class="ui answer row button">
+                    <p>Responder</p>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="ui center aligned relaxed hide grid">
+    <div class="result row">
+        Fim do questionário
+    </div>
+    <div class="score row">
+
+    </div>
 </div>
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="semantic/dist/semantic.js"></script>
 <script type="text/javascript" src="js/hammer-time.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/easing/EasePack.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+
 </body>
 </html>
