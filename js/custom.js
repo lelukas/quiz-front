@@ -96,7 +96,9 @@ window.onload = function(){
                         $(".ui.grid:nth-child(3)").removeClass("hide");
                         $(".score").html("Você acertou " + score + " perguntas");
 
-                    }else if (q == score && score == 5){
+                    }
+
+                    if (score == 5){
 
 
                         if( Math.random() <= 0.5 ){
