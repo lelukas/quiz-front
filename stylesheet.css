@@ -59,8 +59,12 @@ div.background{
     font-size: 1.3em !important;
 }
 
-.ranking{
-    /*padding-top: 5% !important;*/
+.result{
+    margin: 4em 0em 2em 0em;
+}
+
+.result, .score{
+    font-size: 5em;
 }
 
 .game.button{
@@ -92,4 +96,104 @@ div.background{
     background-color: #ECF0F1;
     color: #2C3E50;
     margin-bottom: 2em;
+}
+
+
+.animation{
+    /*opacity: 0;*/
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.asset{
+    position: absolute;
+}
+
+.brush{
+    top:-46%;
+    width: 106vw;
+    height: auto;
+    left: calc(50% - 53vw);
+}
+
+.message{
+    width: 30vw;
+    height: auto;
+    left: calc(50% - 15vw);
+    top: 17%;
+}
+
+
+.palm{
+    width: auto;
+    height: 113vh;
+    z-index: 1;
+}
+
+.leaf{
+    width: auto;
+    height: 60vh;
+    z-index: 0;
+}
+
+#back-center-bottom{
+
+}
+
+#back-center-right{
+    height: 55vh;
+    left: 45%;
+    bottom: -12%;
+}
+
+#back-center-left{
+    height: 61vh;
+    left: -16%;
+    top: -25%;
+}
+
+#back-left-leaf{
+    top: 8%;
+    height: 38vh;
+    left: -6%;
+}
+
+#leaf-center{
+    left: 40%;
+    bottom: -27%;
+    z-index: 2;
+}
+
+#palm-bottom-right{
+    right: -4%;
+    bottom: -41%;
+    z-index: 2;
+}
+
+#palm-top-right{
+    right: -2%;
+    top: -21%;
+    z-index: 0;
+}
+
+#palm-left{
+    left: -7%;
+}
+
+#particles{
+    left: -20%;
+
+}
+
+#message{
+    width: auto;
+    height:30vh;
+    left: 35%;
+    top:calc(50% - 15vh);
+    opacity: 0;
+    z-index: 4;
 }

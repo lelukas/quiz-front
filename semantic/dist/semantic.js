@@ -19795,11 +19795,11 @@ $.api = $.fn.api = function(parameters) {
             }
             module.debug('Checking JSON returned success', settings.successTest, response);
             if( settings.successTest(response) ) {
-              module.debug('Response passed success test', response);
+              module.debug('Response passed success brushes', response);
               return true;
             }
             else {
-              module.debug('Response failed success test', response);
+              module.debug('Response failed success brushes', response);
               return false;
             }
           }
@@ -20045,7 +20045,7 @@ $.api = $.fn.api = function(parameters) {
                 return true;
               }
               else if(status == 'invalid') {
-                module.debug('JSON did not pass success test. A server-side error has most likely occurred', response);
+                module.debug('JSON did not pass success brushes. A server-side error has most likely occurred', response);
               }
               else if(status == 'error') {
                 if(xhr !== undefined) {
@@ -20589,7 +20589,7 @@ $.api.settings = {
   // request finished without aborting
   onComplete  : function(response, $module) {},
 
-  // failed JSON success test
+  // failed JSON success brushes
   onFailure   : function(response, $module) {},
 
   // server error
@@ -21261,7 +21261,7 @@ $.fn.state.settings = {
   onDeactivate   : function() {},
   onChange       : function() {},
 
-  // state test functions
+  // state brushes functions
   activateTest   : function() { return true; },
   deactivateTest : function() { return true; },
 
